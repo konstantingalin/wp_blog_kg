@@ -22,15 +22,18 @@
 				<div class="section__content">
 					<nav class='header_navigation'>
 						<div class="header_navigation__item">
-							<ul class="header_navigation_menu">
-								<li>Главная</li>
-								<li>Темы</li>
-								<li>Популярное</li>
-								<li>Обо мне</li>
-							</ul>
+							<?php
+								wp_nav_menu(
+									array(
+										'theme_location'  => 'top',
+										'container'       => null,
+										'menu_class'      => 'header_navigation_menu',
+									)
+								);
+							?>
 						</div>
 						<div class="header_navigation__item">
-							<input type="search" name="search" id="search">
+							<input type="search" name="search" id="search" placeholder='Поиск по блогу'>
 						</div>
 					</nav>
 				</div>

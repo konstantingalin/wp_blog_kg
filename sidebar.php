@@ -8,6 +8,61 @@
       Я – Галин Константин, веб-разработчик с опытом более 3 лет. Мой блог посвящен PHP, JavaScript и Dart – языкам программирования, на которых я активно работаю и изучаю новые технологии. Здесь ты найдешь полезные статьи, уроки и советы, которые помогут тебе улучшить свои навыки в веб-разработке. 
     </p>
   </div>
+  <div class="socials_box">
+    <p class="socials_box__text1">
+      Соцсети
+    </p>
+    <ul class="socials_box__list">
+      <li>
+        <a href="https://www.instagram.com/paperdeamoon/" target="_blank">
+          <img src="<?= get_template_directory_uri() ?>/assets/public/instagram_icon.png" alt="Иконка соцсети">
+          <p>Instagram</p>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCM_ka9z2rAH6wSSjfdhRgVw" target="_blank">
+          <img src="<?= get_template_directory_uri() ?>/assets/public/youtube_icon.png" alt="Иконка соцсети">
+          <p>Youtube</p>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/profile.php?id=100076299761674" target="_blank">
+          <img src="<?= get_template_directory_uri() ?>/assets/public/facebook_icon.png" alt="Иконка соцсети">
+          <p>Facebook</p>
+        </a>
+      </li>
+      <li>
+        <a href="https://vk.com/id692408038" target="_blank"> 
+          <img src="<?= get_template_directory_uri() ?>/assets/public/vk_icon.png" alt="Иконка соцсети">
+          <p>Вконтакте</p>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/konstantin-galin-878bb525a/" target="_blank">
+          <img src="<?= get_template_directory_uri() ?>/assets/public/linkedin_icon.png" alt="Иконка соцсети">
+          <p>Linkedin</p>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/konstantingalin" target="_blank">
+          <img src="<?= get_template_directory_uri() ?>/assets/public/github_icon.png" alt="Иконка соцсети">
+          <p>Github</p>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.behance.net/konstantingalin" target="_blank">
+          <img src="<?= get_template_directory_uri() ?>/assets/public/behance_icon.png" alt="Иконка соцсети">
+          <p>Behance</p>
+        </a>
+      </li>
+      <li>
+        <a href="https://dribbble.com/KonstantinGalin" target="_blank">
+          <img src="<?= get_template_directory_uri() ?>/assets/public/dribbble_icon.png" alt="Иконка соцсети">
+          <p>Dribbble</p>
+        </a>
+      </li>
+    </ul>
+  </div>
   <div class="pupular_pubs_box">
     <p class="pupular_pubs_box__text1">
       Популярные публикации

@@ -8,12 +8,11 @@
 	<link rel="shortcut icon" href="#" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 	<link rel="stylesheet"
 		href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-	<title>Блог Константина Галина</title>
 	<?php wp_head(); ?>
 </head>
 <body>
@@ -33,7 +32,7 @@
 							?>
 						</div>
 						<div class="header_navigation__item">
-							<input type="search" name="search" id="search" placeholder='Поиск по блогу'>
+							<input autocomplete="off" type="search" name="search" id="search" placeholder='Поиск по блогу'>
 						</div>
 					</nav>
 				</div>

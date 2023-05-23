@@ -6,6 +6,9 @@ add_action('after_setup_theme', 'theme_register_menu');
 
 function theme_register_menu() {
   register_nav_menu( 'top', ' Верхнее навигационное меню');
+  add_theme_support('title-tag');
+  add_theme_support('post-thumbnails', array('post'));
+  add_image_size('post_thumb', 840, 400, true);
 }
 
 function theme_styles() {
